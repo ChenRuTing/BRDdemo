@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#B000A0">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       在数学中,当一级运算(加减)和二级运算(乘除)同时出现在一个式子中时,它们的运算顺序是先乘除,后加减,如果有括号就先算括号内后算括号外,同一级运算顺序是从左到右,这样的运算叫四则运算。"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#106350" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.37"
+        android:src="@drawable/ll" />
+
+</LinearLayout>

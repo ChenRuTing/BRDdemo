@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="action_settings"/>
+    <item
+        android:id="@+id/item1"
+        android:showAsAction="always"
+        android:title="@string/bzhu">"
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:showAsAction="always"
+        android:title="@string/gyu">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:actionLayout="@layout/clock"
+        android:showAsAction="always"
+        android:title="@string/szhong">
+    </item>
+   
+</menu>

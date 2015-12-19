@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ai"
+    android:orientation="vertical" >
+"
+
+    <TextView
+        android:id="@+id/montext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#1234FF" />
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="欢迎进入广州四则运算系统!欢迎进入广州四则运算系统!"
+        android:textColor="#1234FF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:text="进入游戏界面" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:text="设置" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:text="退出" />
+
+</LinearLayout>

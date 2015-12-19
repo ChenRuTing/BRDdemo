@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       四则是指加法,减法,乘法,除法的计算法则.一道四则运算的算式并不需要一定有四种运算符号,一般指由两个或两个以上运算符号及括号,把多数合并成一个数的运算.
+        加减互为逆运算;乘除互为逆运算;乘法是加法的简便运算.统称为四则运算"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#BD00DA" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tt" />
+
+</LinearLayout>
